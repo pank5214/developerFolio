@@ -195,14 +195,26 @@ const bigProjects = {
     {
       image: require("./assets/images/netflix.png"),
       projectName: "NetflixGpt",
-      projectDesc: "Movie Search Platform with OpenAI",
+      projectDesc: "Movie Search Platform with OpenAI with GPT-3.5 turbo integration",
       footerLink: [
         {
           name: "View showcase",
           url: "https://www.linkedin.com/posts/pankaj5214_react-moviesearchplatform-webdevelopment-activity-7106710161070714880-ZzQa?utm_source=share&utm_medium=member_desktop"
-        }
+        },
       ]
-    }
+    },
+    {
+      image: require("./assets/images/youtube.png"),
+      projectName: "myTube",
+      projectDesc: "Large Scalable Video Streaming App, ensuring a high-quality viewing experience for users",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mytube-videos.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
