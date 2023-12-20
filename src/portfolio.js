@@ -10,13 +10,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate and detail-oriented software developer with expertise in frontend technologies, specializing in creating engaging web applications using React.js and React Native. Skilled in utilizing various developer tools for efficient project management."
   ),
   resumeLink: "https://maroon-melonie-92.tiiny.site/", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -41,7 +41,7 @@ const socialMediaLinks = {
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ Netlify")
+    emoji("⚡ Integration of third party services such as Firebase/ Netlify"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,32 +63,32 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      fontAwesomeClassname: "fas fa-fire",
+    },
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
@@ -98,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-docker"
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -110,11 +110,11 @@ const educationInfo = {
       schoolName: "Rajasthan Technical University",
       logo: require("./assets/images/rtu.png"),
       subHeader: "Bachelor of Technology",
-      duration: "August 2012 - May 2016"
+      duration: "August 2012 - May 2016",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -124,26 +124,26 @@ const techStack = {
   experience: [
     {
       Stack: "React/Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Javascript",
-      progressPercentage: "75%"
+      progressPercentage: "75%",
     },
     {
       Stack: "HTML/CSS",
-      progressPercentage: "70%"
+      progressPercentage: "70%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "75%"
+      progressPercentage: "75%",
     },
     {
       Stack: "TailwindCSS",
-      progressPercentage: "90%"
-    }
+      progressPercentage: "90%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -160,10 +160,10 @@ const workExperiences = {
       descBullets: [
         "Crafted numerous user-friendly UI screens for web and mobile apps, elevating the overall user experience, making it more user-friendly, and enhancing the visual appeal.",
         "Redux was employed efficiently to streamline application state management, ensuring a smooth data-handling process and robust performance.",
-        "Proficiency with tools such as Jira, Git, and GitHub has allowed me to collaborate seamlessly with teams and maintain."
-      ]
-    }
-  ]
+        "Proficiency with tools such as Jira, Git, and GitHub has allowed me to collaborate seamlessly with teams and maintain.",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -171,7 +171,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -181,42 +181,47 @@ const bigProjects = {
   subtitle: "BUILD FROM SCRATCH BY ME :",
   projects: [
     {
-      image: require("./assets/images/hunger.png"),
-      projectName: "foodHunger",
-      projectDesc: "Employed a dynamic dashboard displaying real-time data of the restaurants, integrated  from the Swiggy Live API.",
+      image: require("./assets/images/netflix.png"),
+      projectName: "NetflixGpt",
+      projectDesc:
+        "Movie Search Platform with OpenAI with GPT-3.5 turbo integration",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://foods-hunger.netlify.app/"
-        }
-        //  you can add extra buttons here.
-      ]
+          url: "https://myflixgpt.netlify.app/",
+        },
+      ],
     },
+
     {
-      image: require("./assets/images/netflix.png"),
-      projectName: "NetflixGpt",
-      projectDesc: "Movie Search Platform with OpenAI with GPT-3.5 turbo integration",
+      image: require("./assets/images/hunger.png"),
+      projectName: "foodHunger",
+      projectDesc:
+        "Employed a dynamic dashboard displaying real-time data of the restaurants, integrated  from the Swiggy Live API.",
       footerLink: [
         {
-          name: "View showcase",
-          url: "https://www.linkedin.com/posts/pankaj5214_react-moviesearchplatform-webdevelopment-activity-7106710161070714880-ZzQa?utm_source=share&utm_medium=member_desktop"
+          name: "Visit Website",
+          url: "https://foods-hunger.netlify.app/",
         },
-      ]
+        //  you can add extra buttons here.
+      ],
     },
+
     {
       image: require("./assets/images/youtube.png"),
       projectName: "myTube",
-      projectDesc: "Large Scalable Video Streaming App, ensuring a high-quality viewing experience for users",
+      projectDesc:
+        "Large Scalable Video Streaming App, ensuring a high-quality viewing experience for users",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://mytube-videos.netlify.app/"
-        }
+          url: "https://mytube-videos.netlify.app/",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -237,17 +242,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -258,9 +263,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+        },
+      ],
     },
 
     {
@@ -269,15 +274,15 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+          url: "https://pakistan-olx-1.firebaseapp.com/",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -292,16 +297,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -317,10 +322,10 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -331,9 +336,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -341,14 +346,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-9829343601",
-  email_address: "pankajkumar5214@gmail.com"
+  email_address: "pankajkumar5214@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -370,5 +375,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
 };
