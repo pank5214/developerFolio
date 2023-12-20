@@ -17,6 +17,7 @@ export default function Loading() {
         <div className="sk-circle10 sk-child"></div>
         <div className="sk-circle11 sk-child"></div>
         <div className="sk-circle12 sk-child"></div>
+        <div className="sk-circle13 sk-child"></div>
       </div>
     </div>
   );
